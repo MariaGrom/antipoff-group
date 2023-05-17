@@ -20,9 +20,11 @@
 - переписать с использованием TypeScript;
 - сохранять данные залайканных карточек на стороне клиента;
 - доработать свой хук по отслеживанию залогиненного пользователя. 
-![a1](https://github.com/MariaGrom/antipoff-group/assets/102763756/48669778-6a66-4cbf-8f2a-9a8069ea206a)
-![a2](https://github.com/MariaGrom/antipoff-group/assets/102763756/a39ee46a-2cf8-4a54-9096-3f33f100b742)
-![a3](https://github.com/MariaGrom/antipoff-group/assets/102763756/e40e2652-e5dd-4ad4-acf8-71b9c95ae0df)
-![Снимок экрана 2023-05-17 в 19 07 36](https://github.com/MariaGrom/antipoff-group/assets/102763756/d76e4625-1efc-4ed1-b7b3-e9244ae00419)
 ![Снимок экрана 2023-05-17 в 19 01 32](https://github.com/MariaGrom/antipoff-group/assets/102763756/67ec103c-e729-4365-a671-256a577d562e)
+![a1](https://github.com/MariaGrom/antipoff-group/assets/102763756/48669778-6a66-4cbf-8f2a-9a8069ea206a)
+![Снимок экрана 2023-05-17 в 19 07 36](https://github.com/MariaGrom/antipoff-group/assets/102763756/d76e4625-1efc-4ed1-b7b3-e9244ae00419)
+![a2](https://github.com/MariaGrom/antipoff-group/assets/102763756/a39ee46a-2cf8-4a54-9096-3f33f100b742)
+
+
+
 
