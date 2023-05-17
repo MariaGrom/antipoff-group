@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  .btn__goback {
+    background-image: url("../../img/arrow_goback.svg");
+    width: 7px;
+    height: 14px;
+    border: none;
+    border-radius: 0;
+    color: transparent;
+  }
+}

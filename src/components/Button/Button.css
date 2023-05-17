@@ -1,0 +1,20 @@
+.btn {
+  width: 81px;
+  height: 38px;
+  background-color: transparent;
+  border: 1px solid #f8f8f8;
+  border-radius: 8px;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header__btn_login {
+    background-image: url("../../img/btn_logout.svg");
+    width: 18px;
+    height: 18px;
+    color: transparent;
+    border: none;
+    border-radius: 0;
+  }
+}

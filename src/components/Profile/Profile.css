@@ -1,0 +1,119 @@
+.profile__header-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #512689;
+  color: #fff;
+  height: 265px;
+}
+
+.profile__header-content {
+  width: calc(100% - 2 * 80px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.profile__user-content {
+  display: flex;
+  padding-top: 7px;
+  gap: 32px;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile__description {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: calc(100% - 2 * 16px);
+}
+
+.profile__text {
+  max-width: 630px;
+  min-width: 343px;
+  padding-top: 49px;
+  padding-bottom: 314px;
+}
+
+.profile__img {
+  width: 187px;
+  height: 187px;
+  border-radius: 100%;
+  box-sizing: content-box;
+  object-fit: cover;
+}
+
+.profile__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+}
+.profile__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.contacts__container {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 25px;
+}
+
+.contacts {
+  padding-top: 49px;
+}
+
+@media screen and (max-width: 912px) {
+  .profile__description {
+    flex-direction: column-reverse;
+  }
+  .profile__text {
+    padding: 0;
+    padding-bottom: 32px;
+  }
+
+  .contacts {
+    padding: 32px 0 7px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile__header-container {
+    height: 412px;
+  }
+
+  .profile__header-content {
+    width: calc(100% - 2 * 20.5px);
+    padding-top: 23px;
+  }
+  .profile__user-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+    padding-top: calc(64px - 23px);
+    justify-content: flex-end;
+  }
+  .profile__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .profile__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .profile__info {
+    align-items: center;
+  }
+}
